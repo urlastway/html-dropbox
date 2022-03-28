@@ -44,10 +44,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 18px;
 }
 
-.start__button__transition, .begin__button__transition, .subscription__button__transition{
+.start__button__transition, .begin__button__transition, .subscription__button__transition, .btn__enterprice__transition{
     transition: 0.5s;
 }
-.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover{
+.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover, .btn__enterprice__transition:hover{
     background-color: #80a2ff;
 }
 
@@ -268,7 +268,32 @@ header{
 /*Enterprice*/
 .enterprice{
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     border: 1px solid #d0d0d3;
+    margin-bottom: 100px;
 }
 /*F.Enterprice*/
+.enterprice__title{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #d0d0d3;
+}
+.enterprice__content{
+    margin: 30px;
+}
+.enterprice__inner{
+    width: 100%;
+    position: relative;
+}
+
+.enterprice__title__text, .enterprice__button{
+    display: inline-block;
+}
+
+.enterprice__button{
+    position: absolute;
+    right:0;
+}
+#enterprice__subtitle, #enterprice__text{
+    margin: 40px 0;
+}
