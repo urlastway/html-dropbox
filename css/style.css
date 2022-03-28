@@ -44,15 +44,26 @@ h1, h2, h3, h4, h5, h6{
     font-size: 18px;
 }
 
-.start__button__transition, .begin__button__transition, .subscription__button__transition, .btn__enterprice__transition{
+.start__button__transition, .begin__button__transition, .subscription__button__transition, .btn__enterprice__transition, .button__partner__transition{
     transition: 0.5s;
 }
-.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover, .btn__enterprice__transition:hover{
+.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover, .btn__enterprice__transition:hover {
     background-color: #80a2ff;
 }
 
 .begin__button__transition{
     margin: 20px 0;
+}
+
+.button__partner{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.button__partner:hover{
+    background-color: #000;
+    color:#fff;
 }
 /* f. start button */
 
@@ -296,4 +307,32 @@ header{
 }
 #enterprice__subtitle, #enterprice__text{
     margin: 40px 0;
+}
+/*CONTACT*/
+.contact__content{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 100px;
+}
+.img__contact__partner{
+    width: 50%;
+}
+.img__contact__partner, .text__content__partner{
+    float: left;
+}
+.text__content__partner{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.title__partner{
+    font-size: 30px;
+}
+
+.text__partner{
+    margin: 30px 0;
+    font-size: 18px;
+}
+.title__operations{
+    margin-bottom: 60px;
 }
