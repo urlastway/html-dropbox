@@ -22,6 +22,16 @@ h1, h2, h3, h4, h5, h6{
     max-width: 1300px;
     margin: auto;
 }
+.inline{
+    display: inline-block;
+}
+.margin{
+    margin: 20px 0;
+}
+/*Coolors*/
+.grey{
+    color: gray
+}
 /*----------F.------------*/
 /*BOOTONS*/
 
@@ -34,10 +44,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 18px;
 }
 
-.start__button__transition, .begin__button__transition{
+.start__button__transition, .begin__button__transition, .subscription__button__transition{
     transition: 0.5s;
 }
-.start__button__transition:hover, .begin__button__transition:hover{
+.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover{
     background-color: #80a2ff;
 }
 
@@ -153,3 +163,102 @@ header{
 }
 
 /*F.HEADER*/
+
+
+/*MAIN*/
+
+.title__main{
+    text-align: left;
+    margin: 40px 0;
+    color: #000;
+    font-size: 40px;
+}
+
+.radio__box{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#radio2{
+    margin-left: 40px;
+}
+/*Subscrition*/
+.subscription__pricese{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.subscription__1, .subscription__2, .subscription__3{
+    width: calc(85% / 3);
+    margin: calc(15% / 5);
+    float: left;
+    height: 100vh;
+    border: 1px solid #d0d0d3;
+} 
+.subscription__1 {
+    margin-left: 0;
+}
+.subscription__content{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+}
+.subscription__title__style{
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.subscription__content__text{
+    margin: 0 25px;
+}
+.subscription__title__text__style{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.subscription__price{
+    margin: 15px 0;
+    margin-bottom: 65px;
+}
+.month{
+    font-weight: 300;
+}
+.subscription__content__text + .margin{
+    margin-top: 50px;
+}
+.margin .inline .nonbag{
+    position: relative;
+}
+.margin .nonbag{
+    position: absolute;
+    margin-left: 5px;
+}
+.subscription__button{
+    text-align: center;
+    margin-top: 70px;
+}
+.link__prices{
+    margin: 20px 0;
+}
+.link__prices__style{
+    text-decoration: none;
+}
+.subscription__line{
+    width: 18%;
+    padding: 1px;
+    background-color: #d0d0d3;
+}
+.sub__style{
+    font-size: 18px;
+}
+.subscription__list__style i{
+    color:#0061ff;
+    position: absolute;
+    padding: 3px 0;
+}
+
+.subscription__list__style{
+    margin: 15px 0;
+    position: relative;
+}
+.subscription__list__style p{
+    margin-left: 20px;
+}
