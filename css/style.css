@@ -1,5 +1,7 @@
 /*----------------------*/
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -498,3 +500,41 @@ header{
 .container__question{
     margin-bottom: 100px;
 }
+/*FOOTER*/
+.footer__content {
+    height: 500px;
+    background-color: #000000;   
+}
+.col{
+    width: calc(100% / 5);
+    float: left;
+}
+.footer__menu{
+    height: 400px;
+}
+.title__footer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.text__menu__footer{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: block;
+}
+.line__footer{
+    width: 110px;
+    padding: 1px;
+    background-color: #d0d0d3;
+}
+
+.leng{
+    color: #999999;
+    font-size: 14px;
+    margin: 35px 0;
+}
+.leng i, .leng p {
+    display: inline;
+}
+/*FOOTER*/
