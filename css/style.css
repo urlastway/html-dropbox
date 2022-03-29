@@ -177,6 +177,12 @@ header{
     margin-top: 0;
     margin-bottom: 40px;
 }
+.header__inner{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
 
 /*F.HEADER*/
 
@@ -410,17 +416,29 @@ header{
     width: 200px;
     margin-bottom: 40px;
 }
-.retangle__greenlight{
+.designit{
     background-color: #a2d39b;
 }
-.retangle__red{
+.arizona_state_university{
     background-color: #61082b;
 }
-.retangle__blu{
+.university_of_florida{
     background-color: #0093ce;
 }
-.retangle__redlight{
+.topps{
     background-color: #ff1c1c;
+}
+.world_bicycle_relief{
+    background-color: #d5001f;
+}
+.hearst_corp {
+    background-color:#b4d0e7;
+}
+.lonely_planet{
+    background-color: #0d2481;
+}
+.clear_channel{
+    background-color: #ffd830;
 }
 
 .customers__subtitle__text{
@@ -432,6 +450,7 @@ header{
     padding: 100px;
     background-color: #b4d0e7;
 }
+/**/
 /*TRY*/
 .try__text, .try__button{
     display: inline-block;
@@ -448,3 +467,7 @@ header{
     right: 0;
     position: absolute;
 }
+.retangle img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(102%) contrast(101%);
+}
+/*F.TRY*/
