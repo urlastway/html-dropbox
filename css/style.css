@@ -471,3 +471,30 @@ header{
     filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(102%) contrast(101%);
 }
 /*F.TRY*/
+/*Question*/
+#title__question{
+    margin: 40px 0;
+}
+.question__button i{
+    color: #000;
+    position: absolute;
+    right: 0;
+}
+.question__text, .question__button i{
+    margin: 30px 0;
+    display: inline-block;
+}
+.container__question .container{
+    position: relative;
+}
+.question__content{
+    border: 1px solid #d0d0d3;
+    border-left: none;
+    border-right: none;
+}
+.debug__border{
+    border-top: none;
+}
+.container__question{
+    margin-bottom: 100px;
+}
