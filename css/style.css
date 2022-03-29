@@ -45,10 +45,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 18px;
 }
 
-.start__button__transition, .begin__button__transition, .subscription__button__transition, .btn__enterprice__transition, .button__partner__transition{
+.start__button__transition, .begin__button__transition, .subscription__button__transition, .btn__enterprice__transition, .button__partner__transition, .btn__trnsition{
     transition: 0.5s;
 }
-.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover, .btn__enterprice__transition:hover {
+.start__button__transition:hover, .begin__button__transition:hover, .subscription__button__transition:hover, .btn__enterprice__transition:hover, .btn__trnsition:hover{
     background-color: #80a2ff;
 }
 
@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5, h6{
 .button__partner:hover{
     background-color: #000;
     color:#fff;
+}
+.try__button{
+    background-color: #fff;
+    color: #000;
 }
 /* f. start button */
 
@@ -369,3 +373,78 @@ header{
     margin-bottom: 40px;
 }
 /*F.CUSTOMERS*/
+/**/
+.customers__container{
+    width: 100vw;
+    height: 30vw;
+}
+.retangle__left, .retangle__center, .retangle__right{
+    float: left;
+}
+.retangle__left, .retangle__right{
+    width: 30vw;
+    height: 30vw;
+}
+.retangle{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    position: relative;
+}
+.img__costumers{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    position: absolute;
+}
+.retangle__center{
+    width: 40vw;
+    height: 30vw;
+    background-color: #f5f5f5;
+}
+.retangle__center__style{
+    margin: 70px;
+}
+.retangle__center__img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.retangle__greenlight{
+    background-color: #a2d39b;
+}
+.retangle__red{
+    background-color: #61082b;
+}
+.retangle__blu{
+    background-color: #0093ce;
+}
+.retangle__redlight{
+    background-color: #ff1c1c;
+}
+
+.customers__subtitle__text{
+    margin: 40px 0;
+    font-size: 18px;
+}
+.container__try{
+    width: 100%;
+    padding: 100px;
+    background-color: #b4d0e7;
+}
+/*TRY*/
+.try__text, .try__button{
+    display: inline-block;
+    vertical-align: top;
+}
+.try__text{
+    font-size: 40px;
+    color: #61082b;
+}
+.container__try .container {
+    position: relative;
+}
+.try__button{
+    right: 0;
+    position: absolute;
+}
